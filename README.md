@@ -12,7 +12,7 @@ This object has 2 invocation points: `call` and `last`. See below for the 'last'
 The intended usage is something like this. Obviously it doesn't *need* to be in a handler.
 This is just for illustrative purposes.
 
-```
+```ruby
 class SomeHandler
   include Messaging::Handle
   include Messaging::StreamName
